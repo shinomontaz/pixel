@@ -4,8 +4,8 @@ import (
 	"time"
 
 	"github.com/faiface/mainthread"
-	"github.com/faiface/pixel"
 	"github.com/go-gl/glfw/v3.3/glfw"
+	"github.com/shinomontaz/pixel"
 )
 
 // Pressed returns whether the Button is currently pressed down.

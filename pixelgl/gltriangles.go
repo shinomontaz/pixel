@@ -3,9 +3,9 @@ package pixelgl
 import (
 	"fmt"
 
-	"github.com/faiface/glhf"
 	"github.com/faiface/mainthread"
-	"github.com/faiface/pixel"
+	"github.com/shinomontaz/glhf"
+	"github.com/shinomontaz/pixel"
 )
 
 // GLTriangles are OpenGL triangles implemented using glhf.VertexSlice.

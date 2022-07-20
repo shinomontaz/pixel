@@ -1,10 +1,10 @@
 package pixelgl
 
 import (
-	"github.com/faiface/glhf"
 	"github.com/faiface/mainthread"
 	"github.com/go-gl/mathgl/mgl32"
 	"github.com/pkg/errors"
+	"github.com/shinomontaz/glhf"
 )
 
 // GLShader is a type to assist with managing a canvas's underlying
@@ -46,7 +46,7 @@ var defaultCanvasVertexFormat = glhf.AttrFormat{
 	canvasColor:     glhf.Attr{Name: "aColor", Type: glhf.Vec4},
 	canvasTexCoords: glhf.Attr{Name: "aTexCoords", Type: glhf.Vec2},
 	canvasIntensity: glhf.Attr{Name: "aIntensity", Type: glhf.Float},
-  canvasClip:      glhf.Attr{Name: "aClipRect", Type: glhf.Vec4},
+	canvasClip:      glhf.Attr{Name: "aClipRect", Type: glhf.Vec4},
 }
 
 // Sets up a base shader with everything needed for a Pixel

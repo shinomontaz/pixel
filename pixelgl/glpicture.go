@@ -3,9 +3,9 @@ package pixelgl
 import (
 	"math"
 
-	"github.com/faiface/glhf"
 	"github.com/faiface/mainthread"
-	"github.com/faiface/pixel"
+	"github.com/shinomontaz/glhf"
+	"github.com/shinomontaz/pixel"
 )
 
 // GLPicture is a pixel.PictureColor with a Texture. All OpenGL Targets should implement and accept

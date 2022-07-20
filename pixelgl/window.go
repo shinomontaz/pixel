@@ -6,12 +6,12 @@ import (
 	"image/color"
 	"runtime"
 
-	"github.com/faiface/glhf"
 	"github.com/faiface/mainthread"
-	"github.com/faiface/pixel"
 	"github.com/go-gl/gl/v3.3-core/gl"
 	"github.com/go-gl/glfw/v3.3/glfw"
 	"github.com/pkg/errors"
+	"github.com/shinomontaz/glhf"
+	"github.com/shinomontaz/pixel"
 )
 
 // WindowConfig is a structure for specifying all possible properties of a Window. Properties are

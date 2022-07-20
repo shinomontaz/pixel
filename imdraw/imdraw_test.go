@@ -5,8 +5,8 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/faiface/pixel"
-	"github.com/faiface/pixel/imdraw"
+	"github.com/shinomontaz/pixel"
+	"github.com/shinomontaz/pixel/imdraw"
 )
 
 func BenchmarkPush(b *testing.B) {
