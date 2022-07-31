@@ -165,6 +165,14 @@ func (gu *gsUniformAttr) Value() interface{} {
 		return *gu.value.(*int32)
 	case glhf.Float:
 		return *gu.value.(*float32)
+	case glhf.FloatArr:
+		return *gu.value.(*[]float32)
+	case glhf.Vec2Arr:
+		return *gu.value.(*[]mgl32.Vec2)
+	case glhf.Vec4Arr:
+		return *gu.value.(*[]mgl32.Vec4)
+	case glhf.Mat2Arr:
+		return *gu.value.(*[]mgl32.Mat2)
 	default:
 		panic("invalid attrtype")
 	}
@@ -230,6 +238,14 @@ func getAttrType(v interface{}) (glhf.AttrType, bool) {
 		return glhf.Int, true
 	case *float32:
 		return glhf.Float, true
+	case *[]float32:
+		return glhf.FloatArr, true
+	case *[]mgl32.Vec2:
+		return glhf.Vec2Arr, true
+	case *[]mgl32.Vec4:
+		return glhf.Vec4Arr, true
+	case *[]mgl32.Mat2:
+		return glhf.Mat2Arr, true
 	default:
 		panic("invalid AttrType")
 	}
