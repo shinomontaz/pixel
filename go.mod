@@ -9,7 +9,7 @@ require (
 	github.com/go-gl/mathgl v1.0.0
 	github.com/golang/freetype v0.0.0-20170609003504-e2365dfdc4a0
 	github.com/pkg/errors v0.9.1
-	github.com/shinomontaz/glhf v0.0.0-20220720132355-7c7b26b05da1
+	github.com/shinomontaz/glhf v0.0.0-20220731185006-c1f2f2dfa0e7
 	github.com/stretchr/testify v1.7.0
 	golang.org/x/image v0.0.0-20210628002857-a66eb6448b8d
 )
