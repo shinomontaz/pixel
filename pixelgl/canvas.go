@@ -56,6 +56,11 @@ func (c *Canvas) SetFragmentShader(src string) {
 	c.shader.Update()
 }
 
+func (c *Canvas) ResetFragmentShader() {
+	c.shader = NewGLShader(baseCanvasFragmentShader)
+	c.shader.Update()
+}
+
 // MakeTriangles creates a specialized copy of the supplied Triangles that draws onto this Canvas.
 //
 // TrianglesPosition, TrianglesColor and TrianglesPicture are supported.
